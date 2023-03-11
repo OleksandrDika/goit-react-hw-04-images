@@ -15,6 +15,8 @@ export const App = () => {
   const [page, setPage] = useState(1);
   const [error, setError] = useState('');
 
+  console.log(error);
+
   useEffect(() => {
     if (value === '') {
       return;
